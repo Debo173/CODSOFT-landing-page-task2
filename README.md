@@ -16,7 +16,7 @@ html
 css styles
 
 
-##live site( <a href= "https://debo173.github.io/CODSOFT-landing-page-task2/"></a>)
+##live site( <a href= "https://debo173.github.io/CODSOFT-landing-page-task2/"> https://debo173.github.io/CODSOFT-landing-page-task2/</a>)
 
 
 
