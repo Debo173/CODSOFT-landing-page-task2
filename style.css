@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.top {
+    width: 100%;
+    min-height: 60vh;
+    background-image: url("https://media.istockphoto.com/id/1190200652/photo/the-painter-hands.jpg?s=2048x2048&w=is&k=20&c=voc2JWg47ItIo0WfWE3H9kdUGoy8394lweh7iMcHvpY=");
+    background-size: cover;
+    background-position: center;
+}
+
+.strip {
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    padding: 0px 10vw;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.right p {
+    font-size: 14px;
+    width: 40%;
+}
+
+.text h1 {
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.bottom {
+    display: flex;
+    width: 100%;
+    min-height: 30vh;
+}
+
+.box1 {
+    width: 25%;
+    min-height: inherit;
+    background-color: white;
+    padding: 30px
+}
+
+.box1 p {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.box2 {
+    width: 25%;
+    min-height: inherit;
+    background-image: url("https://images.unsplash.com/photo-1590750988553-fe445b529007?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+
+.box3 {
+    width: 20%;
+    min-height: inherit;
+    background-color: green;
+}
+
+.btop {
+    width: 100%;
+    min-height: 20vh;
+    background-color: orangered;
+    padding: 30px;
+    color: white;
+}
+
+.btop p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.bdown {
+    width: 100%;
+    min-height: 20vh;
+    background-image: url("https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZsb3dlciUyMGFydHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+
+.box4 {
+    width: 30%;
+    min-height: inherit;
+    background-color: rgb(36, 34, 34);
+    color: white;
+    padding: 20px;
+}
+
+.notification {
+    display: flex;
+    margin-top: 20px;
+}
+
+.notification .profile {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.profile i {
+    font-size: 200%;
+}
+
+.notification p {
+    color: whitesmoke;
+    width: 80%;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+@media (max-width:500px) {
+    .strip .text {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .strip .text .right {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .strip .text .right p {
+        width: initial;
+        margin-top: 10px;
+    }
+
+    .strip .text .right .icon {
+        margin-top: 20px;
+    }
+
+    .strip .text h1 {
+        font-size: 80px;
+    }
+
+    .bottom {
+        flex-direction: column;
+        min-height: 20vh;
+    }
+
+    .box1 {
+        width: 100%;
+    }
+
+    .box2 {
+        width: 100%;
+    }
+
+    .box3 {
+        width: 100%;
+    }
+
+    .box4 {
+        width: 100%;
+    }
+}
